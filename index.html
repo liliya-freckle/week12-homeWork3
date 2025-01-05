@@ -11,11 +11,24 @@
 <body>
     <script>
         const alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
-        const random = Math.floor(Math.random() * (32 - 1 + 1))
-        // const randomAplhabet =
+        const random1 = Math.floor(Math.random() * (32 - 1 + 1))
+        const random2 = Math.floor(Math.random() * (32 - 1 + 1))
+        const random3 = Math.floor(Math.random() * (32 - 1 + 1))
+        const random4 = Math.floor(Math.random() * (32 - 1 + 1))
+        const abc1 = alphabet[random1]
+        const abc2 = alphabet[random2]
+        const abc3 = alphabet[random3]
+        const abc4 = alphabet[random4]
+        const newWord = (abc1 + abc2 + abc3 + abc4)
+
 
         console.log(`1. ${alphabet}`)
-        console.log(`2. ${random}`)
+        console.log(`2. ${random1}, ${random2}, ${random3}, ${random4}`)
+        console.log(`${abc1}`)
+        console.log(`${abc2}`)
+        console.log(`${abc3}`)
+        console.log(`${abc4}`)
+        console.log(`${newWord}`)
 
 
     </script>
